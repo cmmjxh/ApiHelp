@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.cmm.view.menu.GeneratorHome">
+  <grid id="27dc6" binding="rootJpanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="535" y="22" width="1283" height="341"/>
+    </constraints>
+    <properties>
+      <background color="-460552"/>
+      <doubleBuffered value="true"/>
+      <requestFocusEnabled value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="2d498" binding="configText" layout-manager="GridLayoutManager" row-count="3" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <background color="-592138"/>
+          <font swing-font="Button.font"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="16b16" class="javax.swing.JTextField" binding="textFieldApiName">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <font name="Consolas" size="18" style="0"/>
+              <name value=""/>
+              <selectedTextColor color="-4473925"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="96d91" class="javax.swing.JLabel" binding="labelInterfactPath">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="接口根路径:"/>
+            </properties>
+          </component>
+          <component id="69e2" class="javax.swing.JTextField" binding="textFieldInterfactPath">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text resource-bundle="my" key="setGlobalInterfactPath"/>
+            </properties>
+          </component>
+          <component id="e8277" class="javax.swing.JLabel" binding="labelImplPath">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="实现类根路径:"/>
+            </properties>
+          </component>
+          <component id="42b83" class="javax.swing.JLabel" binding="labelImplProductName">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="项目应用名称:"/>
+            </properties>
+          </component>
+          <component id="aaf07" class="javax.swing.JTextField" binding="textFieldProductName">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text resource-bundle="my" key="setGlobalProductName"/>
+            </properties>
+          </component>
+          <component id="140c4" class="javax.swing.JTextField" binding="textFieldInterfactName">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text resource-bundle="my" key="setGlobalInterfactName"/>
+            </properties>
+          </component>
+          <component id="8e1ac" class="javax.swing.JLabel" binding="labelImplInterfactName">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="接口类名称:"/>
+            </properties>
+          </component>
+          <component id="1af0f" class="javax.swing.JLabel" binding="labelImplControllerName">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="控制类名称:"/>
+            </properties>
+          </component>
+          <component id="bb1d8" class="javax.swing.JLabel" binding="labelImplAuthor">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="Author名称:"/>
+            </properties>
+          </component>
+          <component id="e6ec1" class="javax.swing.JTextField" binding="textFieldAuthor">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text resource-bundle="my" key="setGlobalAuthor"/>
+            </properties>
+          </component>
+          <component id="ec6a6" class="javax.swing.JTextField" binding="textFieldImplPath">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text resource-bundle="my" key="setGlobalImplPath"/>
+            </properties>
+          </component>
+          <component id="aed9e" class="javax.swing.JTextField" binding="textFieldControllerName">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-986896"/>
+              <focusable value="true"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text resource-bundle="my" key="setGlobalControllerName"/>
+            </properties>
+          </component>
+          <component id="338cb" class="javax.swing.JLabel" binding="title003">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-4508361"/>
+              <icon value="title.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="globaldefault" key="config_message"/>
+            </properties>
+          </component>
+          <component id="ea7f7" class="javax.swing.JLabel" binding="labelApiName">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusTraversalPolicyProvider value="true"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="规格API名称:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="62e95" binding="configSelect" layout-manager="GridLayoutManager" row-count="1" column-count="15" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <background color="-592138"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="20e1a" class="javax.swing.JCheckBox" binding="isParamGenerator">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-592138"/>
+              <font name="Consolas" size="18" style="0"/>
+              <selected value="true"/>
+              <text value="生成入参检查注解"/>
+            </properties>
+          </component>
+          <component id="5a098" class="javax.swing.JButton" binding="executeBut">
+            <constraints>
+              <grid row="0" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="0"/>
+              <text value="启动执行"/>
+            </properties>
+          </component>
+          <hspacer id="ac27">
+            <constraints>
+              <grid row="0" column="14" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="bf920">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="979b9" class="javax.swing.JCheckBox" binding="isFileGenerator">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-592138"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="生成规范文件目录"/>
+            </properties>
+          </component>
+          <grid id="2650e" binding="title0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-592138"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8ebe9" class="javax.swing.JLabel" binding="title00">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <icon value="title.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="3f04e" class="javax.swing.JCheckBox" binding="isCodeGenerator">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-592138"/>
+              <font name="Consolas" size="18" style="0"/>
+              <text value="生成API基础代码文件"/>
+            </properties>
+          </component>
+          <hspacer id="6d533">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="2932b">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="5d47d">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="2e7bf">
+            <constraints>
+              <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="a8a1f">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="8a706">
+            <constraints>
+              <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="5f754">
+            <constraints>
+              <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="6ab3b">
+            <constraints>
+              <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="a80b8" binding="otherJpanel" layout-manager="GridLayoutManager" row-count="1" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <background color="-592138"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="2120b" class="javax.swing.JLabel" binding="ps">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="14" style="0"/>
+              <foreground color="-125932"/>
+              <icon value="message.gif"/>
+              <text value="生成代码文件时，不存在接口类文件和控制类文件情况下，默认创建文件并生成内容；存在时，则追加API代码内容"/>
+            </properties>
+          </component>
+          <component id="bdb9c" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="15" style="0"/>
+              <text value="clear"/>
+            </properties>
+          </component>
+          <hspacer id="942bb">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="98a45">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="b1715">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="51d26">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="782f2">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="1b83d">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <scrollpane id="5ec62">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="empty"/>
+        <children>
+          <component id="f83d6" class="javax.swing.JTextArea" binding="jTextArea">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <alignmentY value="0.5"/>
+              <background color="-15526892"/>
+              <editable value="false"/>
+              <font name="Consolas" size="16" style="0"/>
+              <foreground color="-789517"/>
+              <lineWrap value="true"/>
+              <text value="*打印台*"/>
+              <toolTipText value=""/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

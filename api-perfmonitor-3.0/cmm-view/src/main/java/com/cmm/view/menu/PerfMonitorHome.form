@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.cmm.view.menu.PerfMonitorHome">
+  <grid id="27dc6" binding="root01" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1310" height="754"/>
+    </constraints>
+    <properties>
+      <background color="-592138"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="26b81" binding="root02" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-592138"/>
+          <maximumSize width="2147483647" height="2147483647"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="fcd52" binding="configJpane" layout-manager="GridLayoutManager" row-count="1" column-count="15" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="0" right="10"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentX value="1.0"/>
+              <alignmentY value="1.0"/>
+              <background color="-592138"/>
+              <foreground color="-592138"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="69407" class="javax.swing.JLabel" binding="tracePath">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <alignmentY value="0.5"/>
+                  <background color="-526345"/>
+                  <font name="Consolas" size="18" style="0"/>
+                  <text value="输入应用追踪路径"/>
+                </properties>
+              </component>
+              <hspacer id="88ae8">
+                <constraints>
+                  <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="87014">
+                <constraints>
+                  <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="6fef5">
+                <constraints>
+                  <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="98458">
+                <constraints>
+                  <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="a3405">
+                <constraints>
+                  <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="7ff3">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="6510">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="dcc35" class="javax.swing.JTextField" binding="tracePathField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="250" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-986896"/>
+                  <font name="Consolas" size="18" style="0"/>
+                  <text value="com.digiwin.pcc.pcc.service"/>
+                </properties>
+              </component>
+              <component id="24fb8" class="javax.swing.JLabel" binding="ignoreFile">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="0"/>
+                  <text value="忽略目录"/>
+                </properties>
+              </component>
+              <component id="2471d" class="javax.swing.JTextField" binding="ignoreFileField">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-986896"/>
+                  <font name="Consolas" size="18" style="0"/>
+                  <text value="utils/,entity/"/>
+                </properties>
+              </component>
+              <component id="46b0a" class="javax.swing.JButton" binding="logParseBut">
+                <constraints>
+                  <grid row="0" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <text value="日志分析"/>
+                </properties>
+              </component>
+              <component id="1b1f4" class="javax.swing.JButton" binding="runBut">
+                <constraints>
+                  <grid row="0" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="16" style="0"/>
+                  <iconTextGap value="4"/>
+                  <inheritsPopupMenu value="false"/>
+                  <label value="开启监控"/>
+                  <text value="开启监控"/>
+                </properties>
+              </component>
+              <component id="2a998" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="0"/>
+                  <text value="展开层级："/>
+                </properties>
+              </component>
+              <component id="35eac" class="javax.swing.JTextField" binding="level">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="18" style="0"/>
+                  <text value="3"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c0513" binding="perfParseMesJpane" layout-manager="GridLayoutManager" row-count="1" column-count="15" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="10" bottom="0" right="10"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-592138"/>
+            </properties>
+            <border type="line" title="性能分析" title-justification="4">
+              <font/>
+              <title-color color="-11577264"/>
+              <color color="-4802635"/>
+            </border>
+            <children>
+              <component id="9aeb" class="javax.swing.JLabel" binding="cpuKey">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-4502015"/>
+                  <text value="CPU消耗："/>
+                </properties>
+              </component>
+              <hspacer id="ec752">
+                <constraints>
+                  <grid row="0" column="14" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="ba9e1" class="javax.swing.JLabel" binding="cpuField">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-12566464"/>
+                  <text value="0.0%"/>
+                </properties>
+              </component>
+              <component id="105da" class="javax.swing.JLabel" binding="blockCount">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-14252031"/>
+                  <text value="线程阻塞次数"/>
+                </properties>
+              </component>
+              <component id="b9308" class="javax.swing.JLabel" binding="blockCountField">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-12566464"/>
+                  <text value="0 次"/>
+                </properties>
+              </component>
+              <component id="8f958" class="javax.swing.JLabel" binding="blockTime">
+                <constraints>
+                  <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-4510135"/>
+                  <text value="线程阻塞时间："/>
+                </properties>
+              </component>
+              <component id="18eb6" class="javax.swing.JLabel" binding="blockTimeField">
+                <constraints>
+                  <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-12566464"/>
+                  <text value="0 ms"/>
+                </properties>
+              </component>
+              <hspacer id="ac1a5">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="f4f00">
+                <constraints>
+                  <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="edd9c" class="javax.swing.JLabel" binding="threadKey">
+                <constraints>
+                  <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-15901765"/>
+                  <text value="cpu|内存："/>
+                </properties>
+              </component>
+              <hspacer id="14421">
+                <constraints>
+                  <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="a6c0e" class="javax.swing.JLabel" binding="timeKey">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Consolas" size="14" style="0"/>
+                  <text value="API执行时间："/>
+                </properties>
+              </component>
+              <component id="dd7ce" class="javax.swing.JLabel" binding="useTime">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-12566464"/>
+                  <text value="0 ms"/>
+                </properties>
+              </component>
+              <hspacer id="f9880">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="e69bc" class="javax.swing.JButton" binding="utton">
+                <constraints>
+                  <grid row="0" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <font name="Consolas" size="12" style="0"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <margin top="1" left="0" bottom="0" right="0"/>
+                  <multiClickThreshhold value="0"/>
+                  <text value="快照下载"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="63864" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-592138"/>
+              <foreground color="-4473925"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3b535" class="javax.swing.JLabel" binding="ps">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2039584"/>
+                  <font name="Consolas" size="14" style="0"/>
+                  <foreground color="-125932"/>
+                  <icon value="message.gif"/>
+                  <text value="1、配置信息请按照格式填写；2、若项目中存在Spring延迟加载，可再次调用API完成类加载后进行日志分析。"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="93f3c" binding="errorJpanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="5616" binding="consoleJSsroll">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a4d36" class="javax.swing.JTextArea" binding="consoleField">
+                    <constraints/>
+                    <properties>
+                      <background color="-16447222"/>
+                      <dragEnabled value="false"/>
+                      <font name="Consolas" size="14" style="0"/>
+                      <foreground color="-460552"/>
+                      <maximumSize width="2147483647" height="60"/>
+                      <preferredSize width="59" height="60"/>
+                      <text value="*打印台*"/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="2a5b5" binding="gcJpanel" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="24" height="24"/>
+                <preferred-size width="150" height="70"/>
+                <maximum-size width="2147483647" height="2147483647"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-15395817"/>
+              <enabled value="true"/>
+            </properties>
+            <border type="line" title="前后内存">
+              <font/>
+              <title-color color="-5395027"/>
+              <color color="-10329502"/>
+            </border>
+            <children/>
+          </grid>
+          <scrollpane id="7954" binding="jstree">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="0" height="0"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none">
+              <font/>
+              <title-color color="-11577264"/>
+              <color color="-4802635"/>
+            </border>
+            <children>
+              <grid id="3c1b4" binding="straceTreeJpanl" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties/>
+                <border type="line" title="链路追踪">
+                  <font name="Consolas" style="0"/>
+                  <title-color color="-11577264"/>
+                  <color color="-4802635"/>
+                </border>
+                <children/>
+              </grid>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

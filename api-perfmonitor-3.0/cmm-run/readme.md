@@ -1,0 +1,2 @@
+ApiHelp 执行入口
+主要对当前环境JDK和tools.jar 进行检查。并将tools.jar拓展到系统类加载器后置加载。主要目的能让virtualMachine能正常加载使用。
